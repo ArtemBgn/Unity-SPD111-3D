@@ -14,13 +14,13 @@ public class Geit2Script : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.PageUp))
+        if (Input.GetKeyDown(KeyCode.U))
         {
-            animator.SetBool("IsRotate", false);
+            animator.SetBool("isRotate", false);
         }
-        if (Input.GetKey(KeyCode.R))
+        if (Input.GetKeyDown(KeyCode.R))
         {
-            animator.SetBool("IsRotate", true);
+            animator.SetBool("isRotate", true);
         }
     }
 }
