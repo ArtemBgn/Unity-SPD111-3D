@@ -11,7 +11,7 @@ public class BallScript : MonoBehaviour
     [SerializeField]
     private Light mainLight;
     private Rigidbody rb;
-    private float forceFactor = 2f;
+    private float forceFactor = 4f;
     // Start is called before the first frame update
     void Start()
     {
